@@ -9,6 +9,7 @@
     font-size: 14px
     line-height: 22px
     color: #FFFFFF
+    transition: 0.3s all
 
 .container
     width: 1110px
@@ -61,6 +62,8 @@
         background-color: #4985FF
         border-radius: 30px
         cursor: pointer
+        &:hover
+            margin-top: 53px
     &__text
         padding-top: 10px
         text-align: center
@@ -182,7 +185,7 @@
         font-size: 36px
         line-height: 30px
         color: #000000
-    &__text
+    &__descr
         margin-top: 15px
         font-weight: 400
         font-size: 16px
@@ -293,7 +296,7 @@
     height: 735px
     background: url(../img/bg/footer.png) center center/cover no-repeat
     .container
-        padding-top: 70px
+        padding-top: 60px
         hr
             border: 1px solid #E0E0E0
             margin-top: 85px
@@ -327,6 +330,7 @@
         display: flex
         justify-content: center
         align-items: center
+        cursor: pointer
     &__img
         width: 60px
         height: 60px
@@ -334,8 +338,7 @@
 
 .subscribe
     height: 177px
-    margin-top: 85px
-    padding-bottom: 85px
+    margin: 70px 0px
     &__title
         font-weight: 600
         font-size: 18px
@@ -358,11 +361,12 @@
         justify-content: center
     &__input
         width: 300px
-        padding-left: 15px
+        padding-left: 25px
         border-top-left-radius: 25px
         border-bottom-left-radius: 25px
         border: none
         box-shadow: 1px 1px 5px gray
+        color: black
     &__btn
         background-color: #4985FF
         width: 190px
@@ -370,6 +374,7 @@
         border-bottom-right-radius: 25px
         border: none
         box-shadow: 1px 1px 5px gray
+        cursor: pointer
     &__little
         font-weight: 400
         font-size: 13px
@@ -382,7 +387,7 @@
     height: 413px
     width: 100%
     background-color: #F6F6F8
-    .container
+    &__block
         display: flex
         justify-content: space-between
         flex-wrap: wrap
